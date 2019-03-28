@@ -39,6 +39,8 @@ let lastAlbionStatusMsg = db.get('recents.albionStatusMsg').value();
 // Initialize Discord Bot
 const bot = new Discord.Client();
 
+bot.login('MVDiKohaHien8L7QoCOYuQMLdvOQXvEB');
+
 bot.on('ready', () => {
   logger.info('Connected');
   logger.info(`Logged in as: ${bot.user.username} - (${bot.user.id})`);
