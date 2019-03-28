@@ -1,3 +1,4 @@
+/* eslint-disable strict */
 /**
  * Discord Bot settings. These are mandatory and will affect what the bot
  *   posts about, and where it posts to.
